@@ -59,7 +59,7 @@ export class SmartRefreshHeader extends React.PureComponent{
     render() {
         const {children,style} = this.props;
         return (
-            <RNSmartRefreshHeader>
+            <RNSmartRefreshHeader refreshLayoutHeight={80}>
                    <View
                     style={StyleSheet.compose({height:100},style)}
                    >
