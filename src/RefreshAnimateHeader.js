@@ -34,7 +34,7 @@ function RefreshAnimateHeader(props) {
       default:
 
     }
-  }, []);
+  }, [onRefreshCallBack]);
   const onChangeOffsetCallBack = useCallback((event) => {
     const { offset } = event.nativeEvent;
 
