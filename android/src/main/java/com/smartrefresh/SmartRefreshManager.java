@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.smartrefresh;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
