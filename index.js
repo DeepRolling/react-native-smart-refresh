@@ -10,6 +10,7 @@ const RNSmartRefresh = requireNativeComponent('RNSmartRefreshView');
 const RNSmartRefreshHeader = requireNativeComponent('RNRefreshHeader');
 import RefreshAnimateHeader from "./src/RefreshAnimateHeader";
 import RefreshNormalHeader from "./src/RefreshNormalHeader";
+import RefreshGifHeader from "./src/RefreshGifHeader";
 
 export class SmartRefresh extends React.PureComponent{
     constructor(props) {
@@ -72,7 +73,8 @@ export class SmartRefreshHeader extends React.PureComponent{
 
 export {
     RefreshNormalHeader,
-    RefreshAnimateHeader
+    RefreshAnimateHeader,
+    RefreshGifHeader
 }
 const styles = StyleSheet.create({
     container:{

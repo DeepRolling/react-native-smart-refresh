@@ -1,8 +1,8 @@
 {
   "name": "react-native-smart-refresh",
   "title": "React Native Smart Refresh",
-  "version": "2.1.0",
-  "description": "TODO",
+  "version": "2.3.0",
+  "description": "refresh header container used in react-native project.",
   "main": "index.js",
   "files": [
     "README.md",
